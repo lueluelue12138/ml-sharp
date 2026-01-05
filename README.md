@@ -93,3 +93,8 @@ Our codebase is built using multiple opensource contributions, please see [ACKNO
 
 Please check out the repository [LICENSE](LICENSE) before using the provided code and
 [LICENSE_MODEL](LICENSE_MODEL) for the released models.
+
+## Platform feasibility
+
+For notes on running outside Apple platforms, a potential Android app, and web trade-offs, see
+[docs/platform-feasibility-android.md](docs/platform-feasibility-android.md).
