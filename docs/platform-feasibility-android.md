@@ -7,8 +7,8 @@
 - 依赖：纯 Python 依赖（`plyfile`, `numpy`, `scipy`, `timm` 等）+ 可选 CUDA 组件随 PyTorch 预编译轮子提供。
 
 ## 2. 桌面端/服务器端可移植性
-- **Linux x86\_64（有/无 CUDA）**：PyTorch 官方提供 CPU 与 CUDA 轮子，当前代码可直接运行；无 CUDA 时只能生成 `.ply`，渲染需关闭 `--render`。
-- **Windows x86\_64（有/无 CUDA）**：同样有官方轮子，命令行可工作；如需渲染需安装匹配的 CUDA 版 PyTorch/`gsplat`。
+- **Linux x86_64（有/无 CUDA）**：PyTorch 官方提供 CPU 与 CUDA 轮子，当前代码可直接运行；无 CUDA 时只能生成 `.ply`，渲染需关闭 `--render`。
+- **Windows x86_64（有/无 CUDA）**：同样有官方轮子，命令行可工作；如需渲染需安装匹配的 CUDA 版 PyTorch/`gsplat`。
 - **macOS Intel**：仅 CPU 路径可用（无 MPS），性能较慢但功能可用。
 - **Apple Silicon**：已有 MPS 支持，已在默认设备选择中覆盖。
 - **结论**：推理部分与 Apple 平台无强绑定，主要瓶颈在硬件算力和是否需要 CUDA 渲染。
